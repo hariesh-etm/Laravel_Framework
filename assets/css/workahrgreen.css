@@ -1,0 +1,40 @@
+/*
+* @author Workahr Tech v1.2
+* @package Workarh Framework
+* @copyright 2023 Workahr Tech Pvt Ltd 
+* @website https://www.workahrtech.com
+* Created On : 25-04-2023 
+*/
+
+body {
+    background-color: #f8f9fb;
+}
+
+.main-container-wkr .sidebar {
+    /* background-color: #43C59E; */
+    background-color: #ffffff;
+}
+
+.main-container-wkr .home-content {
+    /* background-color: #fff; */
+    background: linear-gradient(90deg,rgba(21, 171, 142, 1) 30%,rgba(118, 192, 79, 1) 76%);
+}
+
+.btn-primary{
+    color: #000 !important;
+    background: linear-gradient( 90deg, rgba(21, 171, 142, 1) 30%, rgba(118, 192, 79, 1) 76% );
+    border:  none;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #000;
+    background:linear-gradient( 90deg, rgba(21, 171, 142, 1) 30%, rgba(118, 192, 79, 1) 76% ) !important;
+    border:none
+}

@@ -1,0 +1,56 @@
+/*
+* @author Workahr Tech v1.2
+* @package Workarh Framework
+* @copyright 2023 Workahr Tech Pvt Ltd 
+* @website https://www.workahrtech.com
+* Created On : 25-04-2023 
+*/
+
+body {
+    background-color: #eef5f9;
+}
+
+.main-container-wkr .sidebar {
+    /* background-color: #43C59E; */
+    background-color: #ffffff;
+}
+
+.main-container-wkr .home-content .fa-bars, .main-container-wkr .home-content .text, .main-container-wkr .btn-group .dropdown-toggle .text-wrap, .main-container-wkr .btn-group .dropdown-toggle i {
+    color: #ffffff;
+}
+.main-container-wkr .home-content {
+    /* background-color: #fff; */
+    background: #2f333e;
+}
+
+.btn-primary{
+    color: #ffffff !important;
+    background: #2f333e;
+    border:  none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #61656f;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background: #2f333e !important;
+    border:none
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before {
+    background-color: #2f333e !important;
+}
+
+.offcanvas-header {
+    background: #eef5f9;
+}

@@ -1,0 +1,76 @@
+/*
+* @author Workahr Tech v1.2
+* @package Workarh Framework
+* @copyright 2023 Workahr Tech Pvt Ltd 
+* @website https://www.workahrtech.com
+*/
+
+.login-wrap {
+    font-family: "Poppins",sans-serif;
+    margin: 40px 0 0 0;
+}
+
+.login-wrap .form-wrap {
+    padding: 20px 40px;
+    background: #2f333e !important;
+    color: #fff;
+    border-radius: 33px;
+}
+
+.login-wrap .form-wrap .bg-color {
+    padding: 30px;
+    border-radius: 33px;
+    background-color: #fff;
+    color: #000;
+}
+
+.login-wrap .form-wrap .bg-color input {
+    background-color: #e5f1ff;
+    border: none;
+}
+
+.login-wrap .form-wrap .bg-color span {
+    color: #68a7ff;
+    font-size: 14px
+}
+
+.login-wrap .form-wrap .bg-color a {
+    text-decoration: none;
+}
+
+.form-wrap .btn {
+    background-color: #e5f1ff;
+    padding: 10px 60px;
+    border-radius: 33px;
+}
+
+.form-wrap .btn:hover {
+    background-color: #d7e0ea;
+}
+
+.form-wrap .text {
+    position: relative;
+    font-size: 14px;
+}
+
+.form-wrap .text:after {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left:65px;
+    /* background: #585858; */
+}
+
+.form-wrap .text:before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 349px;
+    /* background: #585858; */
+}
